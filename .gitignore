@@ -1,0 +1,19 @@
+# Solidity Development
+artifacts/
+cache/
+build/
+states/
+*.json
+
+# Allow only contracts to be committed
+!contracts/*.sol
+
+# Node modules
+node_modules/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
